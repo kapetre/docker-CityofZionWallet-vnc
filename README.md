@@ -4,7 +4,7 @@ City of Zion Neo Wallet running in a docker container connected to via VNC
 
 ## Running container
 ```
-docker run -itd --name myneowallet -p 5900:5900 chuyqa/cityofzionwallet-vnc
+docker run -itd --name myneowallet -p 5900:5900 chuyqa/docker-cityofzionwallet-vnc
 
 ```
 
