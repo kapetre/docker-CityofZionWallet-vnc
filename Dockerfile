@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 RUN apt update && \
-    apt install -y x11vnc xvfb wget
+    apt install -y x11vnc xvfb wget libasound2
 
 WORKDIR /tmp
 RUN wget https://github.com/CityOfZion/neon-wallet/releases/download/0.0.6/Linux.Neon_0.0.6_amd64.deb
